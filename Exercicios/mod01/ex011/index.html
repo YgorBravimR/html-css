@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tenta abrir esse site em váris dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/imagem-p.png"> <!-- DEVE ser seguida a ordem de sources -->
+        <source media="(max-width: 1030px)" srcset="imagens/imagem-m.png"> <!-- Imagem menor, TAG source tem que ser acima da primeira imagem -->
+        <img src="imagens/imagem-g.png" alt="Imagem flexível"> <!-- Imagem maior -->
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/retribuition-neffex.mp3" controls autoplay></audio> <!--MP3 WAV OGG-->
+
+    <p>Vamos aprender a reproduzir audios em HTML5 usando TAG source</p>
+    <audio controls preload="metadata">
+        <!-- O navegador vai tentar carregar na sequencia do codigo -->
+        <source src="midia/better days-neffex.mp3" type="audio/mpeg">
+        <source src="midia/better days-neffex.ogg" type="audio/ogg">
+        <source src="midia/better days-neffex.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador nao consegue reproduzir audios. <a href="midia/better days-neffex.mp3">Clique aqui</a> para baixar o seu audio.</p>
+    </audio>
+    
+</body>
+</html>

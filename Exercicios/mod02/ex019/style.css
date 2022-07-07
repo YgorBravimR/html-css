@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*
+    Em HTML é 'id'    = em CSS é '#'
+        O seletor 'id' deve ser usado apenas uma vez;
+    Em HTML é 'class' = em CSS é '.'
+        Para utilizar o mesmo seletor em varios elementos, usa-se 'class'
+*/
+
+
+
+body {
+    background-color: rgb(221, 247, 221);
+    font: normal normal 16px arial, helvetica, sans-serif;
+}
+
+h1 {
+    color:rgb(64, 95, 64);
+}
+
+h1#main {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+
+.basic {
+    color: greenyellow;
+    background-color: black;
+}
+
+.intermediate {
+    color: yellow;
+    background-color: black;
+}
+
+.advanced {
+    color: red;
+    background-color: black;
+}
+
+
+p {
+    text-align: justify;
+}
+

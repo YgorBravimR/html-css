@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+    
+        body{
+            font-family: 'Splash', cursive;
+            /*  Medidas Absolutas:
+                    cm, mm , in, px, pt, pc
+
+                Medidas Relativas:
+                    em, ex, rem, vw, vh, %
+            */
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700; /* Pode ser numerico se a fonte te permitir [multiplos de 100], ou escritos da forma que a fonte te permitir [lighter, normal, bold, bolder] */
+            font-size: 3em; /* Recomendado pela W3C que seja em [px] ou [em]; */
+            font-size: italic;
+        }
+
+        h3{ /* Shorthand font declaration 
+                [style  weight size           family]  */
+            font: italic bold 1.5em 'Timer New Roman', Times, serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit rem fuga at voluptatem repellat. Asperiores sequi itaque voluptate magnam at ratione ea necessitatibus doloremque aspernatur perferendis ex, unde quia fugiat?</p>
+    <h2>Subtitulo do exercicio</h2>
+    <h3>Subtitulo do Subtitulo</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat blanditiis qui sed iure ullam modi impedit. Ratione deserunt nihil placeat aut vitae, quos ut quisquam quis. Labore mollitia nihil unde.</p>
+    
+</body>
+</html>

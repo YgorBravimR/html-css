@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body {
+            background-color: rgb(255, 228, 228);
+        }
+
+        header {
+            height: auto;
+            width: 359px;
+        }
+
+        nav {
+            font: italic bold 18px helvetica;
+            background-color: #815656;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.288);
+            border-radius: 10px;
+
+        }
+
+        main {
+            border-radius: 20px;
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            padding-right: 30px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: #b46666;
+        }
+
+        footer {
+            background-color: black;
+            color: beige;
+            text-align: center;
+        }
+        
+        article {
+            background-color: #dfc9c9;
+            border-radius: 10px;
+            
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>            <!-- Cabeçalho    <div> -->
+        <h1>Meu site</h1>
+        <nav>           <!-- Menu    <div> -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>               <!-- Conteudo principal    <div> -->
+        <section id="noticias">
+            <article>
+                <h2>Sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit iusto a odit impedit beatae quasi vel et voluptatibus alias perspiciatis, exercitationem nisi laborum consequatur tempora aliquam fuga illum incidunt.</p>
+            </article>
+        </section>
+    </main>
+    <footer>             <!-- Rodapé    <div> -->
+        <p>Desenvolvido por Ygor Bravim</p>
+    </footer>
+
+</body>
+</html>

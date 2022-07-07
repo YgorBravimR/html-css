@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+
+        /*  Pseudo classes denotadas pelo ':' após o identificador do seletor 
+            Pseudo elemntos denotadas pelo '::' após o identificador do seletor 
+        */
+
+        div {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        #div01:hover {
+            background-color: #5dc6e9;
+        }
+        #div02:hover {
+            background-color: #e64848;
+        }
+        #div03:hover {
+            background-color: #55dfdf;
+        }
+        
+
+
+        #div01 {
+            background-color: lightblue;
+            text-align: left;
+        }
+
+        #div02 {
+            background-color: lightcoral;
+            text-align: center;
+        }
+        #div03 {
+            background-color: lightcyan;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="div01">01</div>
+    <div id="div02">02</div>
+    <div id="div03">03</div>
+</body>
+</html>
